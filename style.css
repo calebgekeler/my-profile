@@ -1,0 +1,61 @@
+/*sets all the font to Helvetica*/
+*{
+    font-family: Helvetica, sans-serif;
+}
+.header-box{
+  text-align: center;
+  height: 100px;
+}
+header{
+  padding: 5px;
+  margin: auto;
+  text-align: center;
+  background-color: firebrick;
+}
+footer{
+  margin: auto;
+  text-align: center;
+  background-color: black;
+  height: 70px;
+  padding-top: 5px;
+  color:slategray;
+}
+/*image box used to center the image*/
+.image-box{
+  margin: auto;
+  width: 300px;
+}
+img{
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 10px;
+}
+.center-align{
+  font-size: 40px;
+  text-align: center;
+}
+body{
+  background-color: lightslategray;
+  width: 600px;
+}
+/*styles all the lines*/
+hr{
+  border-color:  black;
+  background-color: firebrick;
+  height: 5px;
+  border-radius: 5px;
+  width: 90%;
+}
+/*psuedo-classes that reference class link*/
+.link:link{
+  color: blue;
+}
+.link:visited{
+  color: red;
+}
+.link:hover{
+  color: green;
+}
+.link:active{
+  color: pink;
+}
